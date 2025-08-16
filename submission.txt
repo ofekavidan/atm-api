@@ -1,0 +1,9 @@
+Repo: https://github.com/ofekavidan/atm-api
+Live URL: https://atm-api-x9nw.onrender.com
+Docs: https://atm-api-x9nw.onrender.com/docs
+
+How to run locally:
+1) python -m venv .venv
+2) .\.venv\Scripts\Activate.ps1
+3) python -m pip install -r requirements.txt
+4) python -m uvicorn app:app --reload
